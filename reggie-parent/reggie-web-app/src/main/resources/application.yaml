@@ -1,0 +1,23 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: reggie-web-app # 应用名称
+  datasource: # 数据源配置
+    druid:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/reggie?useUnicode=true&characterEncoding=utf-8&useSSL=false
+      username: root
+      password: root
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+reggie:
+  sms:
+    key: LTAI5tNmH22y9C7AxdFEgdNv
+    secret: AHGC0JSnBuYtYg3BnNvyTuwlwyl27n
+    sign-name: 黑马旅游网
+    template-code: SMS_170836451

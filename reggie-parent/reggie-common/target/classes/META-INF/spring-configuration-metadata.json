@@ -1,0 +1,62 @@
+{
+  "groups": [
+    {
+      "name": "reggie.oss",
+      "type": "com.itheima.reggie.common.OssTemplate",
+      "sourceType": "com.itheima.reggie.common.OssTemplate"
+    },
+    {
+      "name": "reggie.sms",
+      "type": "com.itheima.reggie.common.SmsTemplate",
+      "sourceType": "com.itheima.reggie.common.SmsTemplate"
+    }
+  ],
+  "properties": [
+    {
+      "name": "reggie.oss.bucket",
+      "type": "java.lang.String",
+      "sourceType": "com.itheima.reggie.common.OssTemplate"
+    },
+    {
+      "name": "reggie.oss.endpoint",
+      "type": "java.lang.String",
+      "sourceType": "com.itheima.reggie.common.OssTemplate"
+    },
+    {
+      "name": "reggie.oss.key",
+      "type": "java.lang.String",
+      "sourceType": "com.itheima.reggie.common.OssTemplate"
+    },
+    {
+      "name": "reggie.oss.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.itheima.reggie.common.OssTemplate"
+    },
+    {
+      "name": "reggie.oss.url",
+      "type": "java.lang.String",
+      "sourceType": "com.itheima.reggie.common.OssTemplate"
+    },
+    {
+      "name": "reggie.sms.key",
+      "type": "java.lang.String",
+      "sourceType": "com.itheima.reggie.common.SmsTemplate"
+    },
+    {
+      "name": "reggie.sms.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.itheima.reggie.common.SmsTemplate"
+    },
+    {
+      "name": "reggie.sms.sign-name",
+      "type": "java.lang.String",
+      "sourceType": "com.itheima.reggie.common.SmsTemplate"
+    },
+    {
+      "name": "reggie.sms.template-code",
+      "type": "java.lang.String",
+      "sourceType": "com.itheima.reggie.common.SmsTemplate"
+    }
+  ],
+  "hints": []
+}
